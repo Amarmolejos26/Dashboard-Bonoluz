@@ -99,6 +99,12 @@
     display:inline-block; width:3px; height:12px; background:var(--accent); border-radius:2px; flex-shrink:0;
   }
   .brand-text .credit-line .accent-part{color:var(--accent);}
+  .portal-btn{
+    display:inline-block; background:var(--accent); color:#000; font-weight:700; font-size:12.5px;
+    padding:7px 16px; border-radius:999px; text-decoration:none; margin-bottom:12px;
+    box-shadow:0 4px 10px rgba(237,125,49,.3); transition:.15s ease;
+  }
+  .portal-btn:hover{background:var(--accent-dark);}
   .brand-text .org-tag{
     font-size:10.5px; text-transform:uppercase; letter-spacing:.07em; font-weight:600;
     color:var(--accent); margin-top:8px;
@@ -422,13 +428,14 @@
 <body>
 
 <header>
+  <a class="portal-btn" href="https://portal-gestion-comercial.github.io/">← Ir al Portal</a>
   <div class="header-top">
     <div class="brand">
       <div class="bulb"></div>
       <div class="brand-text">
         <h1>Seguimiento Clientes Bonoluz</h1>
         <p>Cartera General Y Nuevas Inclusiones Octubre 2025 A Mayo 2026</p>
-        <p class="credit-line"><span class="bar"></span>ELABORADO POR EL DEPARTAMENTO DE CONTROL DE GESTIÓN COMERCIAL <span class="accent-part">PARA LA GERENCIA DE GRANDES CLIENTES</span></p>
+        <p class="credit-line"><span class="bar"></span>ELABORADO POR EL DEPARTAMENTO DE CONTROL DE GESTIÓN COMERCIAL <span class="accent-part">PARA LA GERENCIA DE SERVICIO AL CLIENTE</span></p>
       </div>
     </div>
     <div class="header-right">
